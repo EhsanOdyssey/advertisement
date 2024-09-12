@@ -1,0 +1,38 @@
+[
+  {
+    "impression_id": "ac8c2e2c-8651-42b3-858e-6dd76c382b99",
+    "revenue": 10.0
+  },
+  {
+    "impression_id": "a99a55a3-fcfb-4717-84de-c329cc60e7f7",
+    "revenue": 10.0
+  },
+  {
+    "impression_id": "b880696e-99b4-40a5-b66e-0f7597f8a0cc",
+    "revenue": 20.0
+  },
+  {
+    "impression_id": "2216d9a8-b558-4278-966a-33d8dde5e4d8",
+    "revenue": 10.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 20.0
+  },
+  {
+    "impression_id": "670272c1-bafd-41d8-aa52-c56902723890",
+    "revenue": 10.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 10.0
+  },
+  {
+    "impression_id": "4f8479cf-c4b6-4584-9d2f-61e0fc4740b5",
+    "revenue": 10.0
+  },
+  {
+    "impression_id": "d3902bdd-ec26-42b3-b6e8-7bdcd8947f3d",
+    "revenue": 20.0
+  }
+]
