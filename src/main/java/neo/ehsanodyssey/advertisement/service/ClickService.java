@@ -7,16 +7,14 @@ import neo.ehsanodyssey.advertisement.exception.FetchClicksException;
 import neo.ehsanodyssey.advertisement.exception.ImpressionNotFoundException;
 import neo.ehsanodyssey.advertisement.exception.ServiceException;
 import neo.ehsanodyssey.advertisement.exception.StoreClickException;
-import neo.ehsanodyssey.advertisement.model.Impression;
 import neo.ehsanodyssey.advertisement.repository.ClickRepository;
 import neo.ehsanodyssey.advertisement.repository.ImpressionRepository;
 import neo.ehsanodyssey.advertisement.service.dto.ClickDTO;
 import neo.ehsanodyssey.advertisement.service.dto.ImpressionDTO;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.UUID;
+import java.util.stream.Stream;
 
 /**
  * @author : EhsanOdyssey (AmirEhsan Shahmirzaloo)
@@ -39,11 +37,14 @@ public class ClickService {
                     .findById(clickDTO.impression().id())
                     .map(ImpressionDTO::fromEntity)
                     .orElseThrow(() -> new ImpressionNotFoundException("invalid_impression_id_" + clickDTO.impression().id()));
-            var updatedImpressionDTO =
+            var id = clickDTO.id() == null || clickDTO.id().trim().isEmpty() ?
+                    UUID.randomUUID().toString() : clickDTO.id();
+            var updatedClickDTO =
                     clickDTO.toBuilder()
+                            .id(id)
                             .impression(impressionDTO)
                             .build();
-            var storedClick = this.clickRepository.save(updatedImpressionDTO.toEntity());
+            var storedClick = this.clickRepository.save(updatedClickDTO.toEntity());
             return ClickDTO.fromEntity(storedClick);
         } catch (Exception e) {
             if (e instanceof ServiceException) {
@@ -53,13 +54,23 @@ public class ClickService {
         }
     }
 
-    public Set<ClickDTO> getByCountryCodeAndAppId(String countryCode, int appId) {
+    public Stream<ClickDTO> getAllStream() {
         try {
             return this.clickRepository
-                    .findAllByImpression_CountryCodeAndImpression_AppId(countryCode, appId)
+                    .findAll()
                     .stream()
-                    .map(ClickDTO::fromEntity)
-                    .collect(Collectors.toSet());
+                    .map(ClickDTO::fromEntity);
+        } catch (Exception e) {
+            throw new FetchClicksException("unable_fetch_clicks", e);
+        }
+    }
+
+    public Stream<ClickDTO> getByAppIdAndCountryCodeStream(int appId, String countryCode) {
+        try {
+            return this.clickRepository
+                    .findAllByImpression_AppIdAndImpression_CountryCode(appId, countryCode)
+                    .stream()
+                    .map(ClickDTO::fromEntity);
         } catch (Exception e) {
             throw new FetchClicksException("unable_fetch_clicks", e);
         }

@@ -1,9 +1,9 @@
 package neo.ehsanodyssey.advertisement.repository;
 
 import neo.ehsanodyssey.advertisement.model.Impression;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.Set;
+import java.util.List;
 
 /**
  * @author : EhsanOdyssey (AmirEhsan Shahmirzaloo)
@@ -11,6 +11,6 @@ import java.util.Set;
  * @project : advertisement
  * @created : 2024-09-12 Sep/Thu
  **/
-public interface ImpressionRepository extends CrudRepository<Impression, String> {
-    Set<Impression> findAllByCountryCodeAndAppId(String countryCode, int appId);
+public interface ImpressionRepository extends JpaRepository<Impression, String> {
+    List<Impression> findAllByAppIdAndCountryCode(int appId, String countryCode);
 }

@@ -3,14 +3,15 @@ package neo.ehsanodyssey.advertisement.service;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import neo.ehsanodyssey.advertisement.exception.FetchImpressionException;
 import neo.ehsanodyssey.advertisement.exception.FetchImpressionsException;
 import neo.ehsanodyssey.advertisement.exception.StoreImpressionException;
 import neo.ehsanodyssey.advertisement.repository.ImpressionRepository;
 import neo.ehsanodyssey.advertisement.service.dto.ImpressionDTO;
 import org.springframework.stereotype.Service;
 
-import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.Optional;
+import java.util.stream.Stream;
 
 /**
  * @author : EhsanOdyssey (AmirEhsan Shahmirzaloo)
@@ -35,13 +36,33 @@ public class ImpressionService {
         }
     }
 
-    public Set<ImpressionDTO> getByCountryCodeAndAppId(String countryCode, int appId) {
+    public Optional<ImpressionDTO> getImpressionById(String id) {
         try {
             return this.impressionRepository
-                    .findAllByCountryCodeAndAppId(countryCode, appId)
+                    .findById(id)
+                    .map(ImpressionDTO::fromEntity);
+        } catch (Exception e) {
+            throw new FetchImpressionException("unable_fetch_impression", e);
+        }
+    }
+
+    public Stream<ImpressionDTO> getAllStream() {
+        try {
+            return this.impressionRepository
+                    .findAll()
                     .stream()
-                    .map(ImpressionDTO::fromEntity)
-                    .collect(Collectors.toSet());
+                    .map(ImpressionDTO::fromEntity);
+        } catch (Exception e) {
+            throw new FetchImpressionsException("unable_fetch_impressions", e);
+        }
+    }
+
+    public Stream<ImpressionDTO> getByAppIdAndCountryCodeStream(int appId, String countryCode) {
+        try {
+            return this.impressionRepository
+                    .findAllByAppIdAndCountryCode(appId, countryCode)
+                    .stream()
+                    .map(ImpressionDTO::fromEntity);
         } catch (Exception e) {
             throw new FetchImpressionsException("unable_fetch_impressions", e);
         }

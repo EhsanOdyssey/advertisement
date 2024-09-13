@@ -1,38 +1,662 @@
 [
   {
     "impression_id": "ac8c2e2c-8651-42b3-858e-6dd76c382b99",
-    "revenue": 10.0
-  },
-  {
-    "impression_id": "a99a55a3-fcfb-4717-84de-c329cc60e7f7",
-    "revenue": 10.0
+    "revenue": 2.0
   },
   {
     "impression_id": "b880696e-99b4-40a5-b66e-0f7597f8a0cc",
-    "revenue": 20.0
+    "revenue": 5.0
   },
   {
-    "impression_id": "2216d9a8-b558-4278-966a-33d8dde5e4d8",
-    "revenue": 10.0
-  },
-  {
-    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
-    "revenue": 20.0
-  },
-  {
-    "impression_id": "670272c1-bafd-41d8-aa52-c56902723890",
-    "revenue": 10.0
-  },
-  {
-    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
-    "revenue": 10.0
-  },
-  {
-    "impression_id": "4f8479cf-c4b6-4584-9d2f-61e0fc4740b5",
-    "revenue": 10.0
+    "impression_id": "a99a55a3-fcfb-4717-84de-c329cc60e7f7",
+    "revenue": 2.0
   },
   {
     "impression_id": "d3902bdd-ec26-42b3-b6e8-7bdcd8947f3d",
-    "revenue": 20.0
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "a99a55a3-fcfb-4717-84de-c329cc60e7f7",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "ac8c2e2c-8651-42b3-858e-6dd76c382b99",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b880696e-99b4-40a5-b66e-0f7597f8a0cc",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "2216d9a8-b558-4278-966a-33d8dde5e4d8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "a99a55a3-fcfb-4717-84de-c329cc60e7f7",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "a99a55a3-fcfb-4717-84de-c329cc60e7f7",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b880696e-99b4-40a5-b66e-0f7597f8a0cc",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "86cf7142-ed7f-4393-bd7d-b5fbf7307b6d",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "b880696e-99b4-40a5-b66e-0f7597f8a0cc",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "a99a55a3-fcfb-4717-84de-c329cc60e7f7",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "670272c1-bafd-41d8-aa52-c56902723890",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "ac8c2e2c-8651-42b3-858e-6dd76c382b99",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b880696e-99b4-40a5-b66e-0f7597f8a0cc",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "86cf7142-ed7f-4393-bd7d-b5fbf7307b6d",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "4f8479cf-c4b6-4584-9d2f-61e0fc4740b5",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "d3902bdd-ec26-42b3-b6e8-7bdcd8947f3d",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "a99a55a3-fcfb-4717-84de-c329cc60e7f7",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "ac8c2e2c-8651-42b3-858e-6dd76c382b99",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "d3902bdd-ec26-42b3-b6e8-7bdcd8947f3d",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d3902bdd-ec26-42b3-b6e8-7bdcd8947f3d",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "670272c1-bafd-41d8-aa52-c56902723890",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "670272c1-bafd-41d8-aa52-c56902723890",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "670272c1-bafd-41d8-aa52-c56902723890",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "670272c1-bafd-41d8-aa52-c56902723890",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "670272c1-bafd-41d8-aa52-c56902723890",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "670272c1-bafd-41d8-aa52-c56902723890",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b9b4d0d7-7401-4bf8-91ba-063b9e0259bf",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "2216d9a8-b558-4278-966a-33d8dde5e4d8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "2216d9a8-b558-4278-966a-33d8dde5e4d8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "2216d9a8-b558-4278-966a-33d8dde5e4d8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "2216d9a8-b558-4278-966a-33d8dde5e4d8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d4666c95-056f-4007-bfda-842950dc67ee",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "bb4fc018-8e1d-48dd-a174-e03d0fe1ce9e",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bb4fc018-8e1d-48dd-a174-e03d0fe1ce9e",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bb4fc018-8e1d-48dd-a174-e03d0fe1ce9e",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bb4fc018-8e1d-48dd-a174-e03d0fe1ce9e",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bb4fc018-8e1d-48dd-a174-e03d0fe1ce9e",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bb4fc018-8e1d-48dd-a174-e03d0fe1ce9e",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bb4fc018-8e1d-48dd-a174-e03d0fe1ce9e",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bb4fc018-8e1d-48dd-a174-e03d0fe1ce9e",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bb4fc018-8e1d-48dd-a174-e03d0fe1ce9e",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "95c042b6-a28b-4805-8b35-576b29eb8c0a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "95c042b6-a28b-4805-8b35-576b29eb8c0a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "95c042b6-a28b-4805-8b35-576b29eb8c0a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "95c042b6-a28b-4805-8b35-576b29eb8c0a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "95c042b6-a28b-4805-8b35-576b29eb8c0a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "d96b355f-f073-4854-9c07-7bdc3853d269",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d96b355f-f073-4854-9c07-7bdc3853d269",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d96b355f-f073-4854-9c07-7bdc3853d269",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d96b355f-f073-4854-9c07-7bdc3853d269",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d96b355f-f073-4854-9c07-7bdc3853d269",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d96b355f-f073-4854-9c07-7bdc3853d269",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d96b355f-f073-4854-9c07-7bdc3853d269",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d96b355f-f073-4854-9c07-7bdc3853d269",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "d96b355f-f073-4854-9c07-7bdc3853d269",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "6d42a2ec-bdb1-4b35-bb18-465c0a6207a6",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "6d42a2ec-bdb1-4b35-bb18-465c0a6207a6",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "6d42a2ec-bdb1-4b35-bb18-465c0a6207a6",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "6d42a2ec-bdb1-4b35-bb18-465c0a6207a6",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bf222d48-a5e7-40b4-8855-3a1fba8dcdea",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bf222d48-a5e7-40b4-8855-3a1fba8dcdea",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bf222d48-a5e7-40b4-8855-3a1fba8dcdea",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bf222d48-a5e7-40b4-8855-3a1fba8dcdea",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bf222d48-a5e7-40b4-8855-3a1fba8dcdea",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bf222d48-a5e7-40b4-8855-3a1fba8dcdea",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bf222d48-a5e7-40b4-8855-3a1fba8dcdea",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "bf222d48-a5e7-40b4-8855-3a1fba8dcdea",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "582246a8-2221-4d83-8f9a-665bbb246cd8",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "58c6109c-ebd9-4c7e-9209-6091cea3c469",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "a951be05-16b8-4253-bc83-c5f5d17e995f",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "a951be05-16b8-4253-bc83-c5f5d17e995f",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "a951be05-16b8-4253-bc83-c5f5d17e995f",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "a951be05-16b8-4253-bc83-c5f5d17e995f",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "a951be05-16b8-4253-bc83-c5f5d17e995f",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "167e2c09-6a34-4e0c-90a3-2f249dcc9c4c",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "167e2c09-6a34-4e0c-90a3-2f249dcc9c4c",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "167e2c09-6a34-4e0c-90a3-2f249dcc9c4c",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "167e2c09-6a34-4e0c-90a3-2f249dcc9c4c",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "1a94526f-ac20-4b0a-a627-40869c9c268a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "1a94526f-ac20-4b0a-a627-40869c9c268a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "1a94526f-ac20-4b0a-a627-40869c9c268a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "1a94526f-ac20-4b0a-a627-40869c9c268a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "1a94526f-ac20-4b0a-a627-40869c9c268a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "1a94526f-ac20-4b0a-a627-40869c9c268a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "1a94526f-ac20-4b0a-a627-40869c9c268a",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "8af21fcc-7397-4a44-b599-f9c3c13b7432",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "8af21fcc-7397-4a44-b599-f9c3c13b7432",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "8af21fcc-7397-4a44-b599-f9c3c13b7432",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b6db8f7d-403b-4456-9214-4b5271538280",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b6db8f7d-403b-4456-9214-4b5271538280",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "8372498a-1002-4370-bb9e-6788c5486601",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "8372498a-1002-4370-bb9e-6788c5486601",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "8372498a-1002-4370-bb9e-6788c5486601",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "8372498a-1002-4370-bb9e-6788c5486601",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "8372498a-1002-4370-bb9e-6788c5486601",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "b20acce0-dc84-48c9-8668-1774047c7d54",
+    "revenue": 2.0
+  },
+  {
+    "impression_id": "e0452699-4627-417b-aaee-84d0f0c28331",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "e0452699-4627-417b-aaee-84d0f0c28331",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "e0452699-4627-417b-aaee-84d0f0c28331",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "e0452699-4627-417b-aaee-84d0f0c28331",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "e0452699-4627-417b-aaee-84d0f0c28331",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "e0452699-4627-417b-aaee-84d0f0c28331",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "e0452699-4627-417b-aaee-84d0f0c28331",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "e0452699-4627-417b-aaee-84d0f0c28331",
+    "revenue": 5.0
+  },
+  {
+    "impression_id": "e0452699-4627-417b-aaee-84d0f0c28331",
+    "revenue": 5.0
   }
 ]

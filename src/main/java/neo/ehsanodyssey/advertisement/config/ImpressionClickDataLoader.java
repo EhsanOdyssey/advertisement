@@ -12,7 +12,7 @@ import neo.ehsanodyssey.advertisement.service.dto.ImpressionDTO;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.util.Set;
+import java.util.List;
 
 /**
  * @author : EhsanOdyssey (AmirEhsan Shahmirzaloo)
@@ -41,9 +41,10 @@ public class ImpressionClickDataLoader implements CommandLineRunner {
 
     private void storeInputImpressions() {
         log.debug("storing the input impressions data started");
-        var impressionsTypeReference = new TypeReference<Set<ImpressionDTO>>(){};
+        var impressionsTypeReference = new TypeReference<List<ImpressionDTO>>(){};
         try(var impressionsInputStream = TypeReference.class.getResourceAsStream(IMPRESSIONS_JSON)) {
             var impressionDTOs = MAPPER.readValue(impressionsInputStream, impressionsTypeReference);
+            log.debug("storing '{}' input impressions", impressionDTOs.size());
             impressionDTOs.forEach(this.impressionService::save);
             log.debug("storing the input impressions data done successfully");
         } catch (Exception e) {
@@ -56,9 +57,10 @@ public class ImpressionClickDataLoader implements CommandLineRunner {
         var module = new SimpleModule();
         module.addDeserializer(ClickDTO.class, new ClickDeserializer());
         MAPPER.registerModule(module);
-        var clicksTypeReference = new TypeReference<Set<ClickDTO>>(){};
+        var clicksTypeReference = new TypeReference<List<ClickDTO>>(){};
         try(var clicksInputStream = TypeReference.class.getResourceAsStream(CLICK_JSON)) {
             var clicksDTOs = MAPPER.readValue(clicksInputStream, clicksTypeReference);
+            log.debug("storing '{}' input clicks", clicksDTOs.size());
             clicksDTOs.forEach(this.clickService::save);
             log.debug("storing the input clicks data done successfully");
         } catch (Exception e) {

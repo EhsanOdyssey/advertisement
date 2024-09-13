@@ -2,12 +2,11 @@ package neo.ehsanodyssey.advertisement.config;
 
 import com.fasterxml.jackson.core.JacksonException;
 import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 import com.fasterxml.jackson.databind.node.DoubleNode;
-import com.fasterxml.jackson.databind.node.IntNode;
+import lombok.extern.slf4j.Slf4j;
 import neo.ehsanodyssey.advertisement.service.dto.ClickDTO;
 import neo.ehsanodyssey.advertisement.service.dto.ImpressionDTO;
 
@@ -19,6 +18,7 @@ import java.io.IOException;
  * @project : advertisement
  * @created : 2024-09-13 Sep/Fri
  **/
+@Slf4j
 public class ClickDeserializer extends StdDeserializer<ClickDTO> {
 
     public ClickDeserializer() {
